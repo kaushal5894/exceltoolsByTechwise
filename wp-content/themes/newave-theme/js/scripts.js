@@ -440,6 +440,356 @@ jQuery(document).ready(function(){
 			});
 		
 		}
+    //Point tools carousal start
+		if( jQuery('.point-tool-raw1').length > 0 ){
+		
+		    jQuery('.point-tool-raw1').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPointToolRow1',
+		        next: '#nextPointToolRow1',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.point-tool-raw2').length > 0 ){
+		
+		    jQuery('.point-tool-raw2').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPointToolRow2',
+		        next: '#nextPointToolRow2',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.point-tool-raw3').length > 0 ){
+		
+		    jQuery('.point-tool-raw3').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPointToolRow3',
+		        next: '#nextPointToolRow3',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.point-tool-raw4').length > 0 ){
+		
+		    jQuery('.point-tool-raw4').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPointToolRow4',
+		        next: '#nextPointToolRow4',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+    //Point tools carousal end
+    //Posalux tools carousal start
+		if( jQuery('.posalux-tool-row1').length > 0 ){
+		
+		    jQuery('.posalux-tool-row1').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow1',
+		        next: '#nextPosaluxToolRow1',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.posalux-tool-row2').length > 0 ){
+		
+		    jQuery('.posalux-tool-row2').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow2',
+		        next: '#nextPosaluxToolRow2',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.posalux-tool-row3').length > 0 ){
+		
+		    jQuery('.posalux-tool-row3').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow3',
+		        next: '#nextPosaluxToolRow3',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.posalux-tool-row4').length > 0 ){
+		
+		    jQuery('.posalux-tool-row4').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow4',
+		        next: '#nextPosaluxToolRow4',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.posalux-tool-row5').length > 0 ){
+		
+		    jQuery('.posalux-tool-row5').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow5',
+		        next: '#nextPosaluxToolRow5',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+		if( jQuery('.posalux-tool-row6').length > 0 ){
+		
+		    jQuery('.posalux-tool-row6').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevPosaluxToolRow6',
+		        next: '#nextPosaluxToolRow6',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+    //Posalux tools carousal end
+
+    //Ice Lethe tools carousal start
+		if( jQuery('.lethe-tool-row1').length > 0 ){
+		
+		    jQuery('.lethe-tool-row1').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow1',
+		        next: '#nextLetheToolRow1',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+
+		if( jQuery('.lethe-tool-row2').length > 0 ){
+		
+		    jQuery('.lethe-tool-row2').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow2',
+		        next: '#nextLetheToolRow2',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+
+		if( jQuery('.lethe-tool-row3').length > 0 ){
+		
+		    jQuery('.lethe-tool-row3').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow3',
+		        next: '#nextLetheToolRow3',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+
+		if( jQuery('.lethe-tool-row4').length > 0 ){
+		
+		    jQuery('.lethe-tool-row4').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow4',
+		        next: '#nextLetheToolRow4',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+
+		if( jQuery('.lethe-tool-row5').length > 0 ){
+		
+		    jQuery('.lethe-tool-row5').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow5',
+		        next: '#nextLetheToolRow5',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+
+		if( jQuery('.lethe-tool-row6').length > 0 ){
+		
+		    jQuery('.lethe-tool-row6').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevLetheToolRow6',
+		        next: '#nextLetheToolRow6',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });
+		
+		}
+    //Ice Lethe tools carousal end
+    //Wire carousal start
+		if( jQuery('.wire-row1').length > 0 ){
+		
+		    jQuery('.wire-row1').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevWireRow1',
+		        next: '#nextWireRow1',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });		
+		}
+		if( jQuery('.wire-row2').length > 0 ){
+		
+		    jQuery('.wire-row2').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevWireRow2',
+		        next: '#nextWireRow2',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });		
+		}
+		if( jQuery('.wire-row3').length > 0 ){
+		
+		    jQuery('.wire-row3').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevWireRow3',
+		        next: '#nextWireRow3',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });		
+		}
+		if( jQuery('.wire-row4').length > 0 ){
+		
+		    jQuery('.wire-row4').carouFredSel({
+		        width: '100%',
+		        height: 'auto',
+		        prev: '#prevWireRow4',
+		        next: '#nextWireRow4',
+		        align: "center",
+		        scroll: 1,
+		        auto: false,
+		        visible: {
+		            min: 1,
+		            max: 5
+		        }
+		    });		
+		}
+    //Wire carousal end
         // Radial Counters
         jQuery(".knob").knob({
             width: 140,
