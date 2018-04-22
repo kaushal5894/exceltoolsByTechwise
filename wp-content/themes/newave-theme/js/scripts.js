@@ -393,7 +393,11 @@ jQuery(document).ready(function(){
         jQuery('#imagepreview').attr('src', jQuery(this)[0].children[0].src); // here asign the image to the modal when the user click the enlarge link
         jQuery('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
     });
-
+    jQuery(".modal").on("show.bs.modal", function () {        
+        var modalWidh = jQuery('.modal').width();
+        //jQuery('.modal').css('style','margin-left: -'+modalWidh/2+'px !important;');
+        jQuery('.modal')[0].style.marginLeft = "-"+modalWidh/2+"px";
+    });
     ///// 1.2 /////
     if( jQuery('.our-team-new').length > 0 ){
 		
