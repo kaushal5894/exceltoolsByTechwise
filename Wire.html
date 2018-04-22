@@ -311,13 +311,13 @@
             <br>
             <ul class="wire-row1">
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 1.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 1.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 2.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 2.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 3.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 3.PNG" alt="" style="height: 100%" />
                 </li>
             </ul>
             <ul class="team-navigation">
@@ -335,13 +335,13 @@
             <br>
             <ul class="wire-row2">
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 4.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 4.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 5.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 5.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 6.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 6.PNG" alt="" style="height: 100%" />
                 </li>
             </ul>
             <ul class="team-navigation">
@@ -364,13 +364,13 @@
             <br>
             <ul class="wire-row3">
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 7.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 7.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 8.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 8.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 9.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 9.PNG" alt="" style="height: 100%" />
                 </li>
             </ul>
             <ul class="team-navigation">
@@ -388,13 +388,13 @@
             <br>
             <ul class="wire-row4">
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 10.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 10.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 11.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 11.PNG" alt="" style="height: 100%" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Wire tool/wire 12.PNG" alt="" style="height: 100%" />
+                    <img class="bsImage" src="Images/Wire tool/wire 12.PNG" alt="" style="height: 100%" />
                 </li>
             </ul>
             <ul class="team-navigation">
@@ -456,7 +456,22 @@
     <!--/Footer -->
     <div class="footer-height">
     </div>
-
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" hidden>
+        <div class="modal-dialog" style="width:auto;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="" id="imagepreview">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wpcf7 = {
@@ -535,6 +550,18 @@
 
     .map-overlay.overlay-hide {
         margin-top: -500px;
+    }
+
+    /*body .modal-dialog { 
+        max-width: 100%;
+        width: auto !important;
+        display: inline-block;
+    }
+
+    .modal.in {
+        text-align: center;
+        width: auto !important;
+    }*/
 </style>
 
 

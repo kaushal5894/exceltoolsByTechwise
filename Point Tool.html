@@ -310,7 +310,7 @@
 
             <ul class="our-team-new">
                 <li class="item pointImg">
-                    <img src="Images/Point Tool/Point Tool 1.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 1.PNG" alt="" />
                 </li>
 
 
@@ -325,16 +325,16 @@
 
             <ul class="point-tool-raw1">
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 2.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 2.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 3.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 3.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 4.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 4.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 5.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 5.PNG" alt="" />
                 </li>
 
 
@@ -362,16 +362,16 @@
 
             <ul class="point-tool-raw2">
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 6.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 6.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 7.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 7.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 8.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 8.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 9.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 9.PNG" alt="" />
                 </li>
 
 
@@ -398,16 +398,16 @@
 
             <ul class="point-tool-raw3">
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 11.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 11.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 12.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 12.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 13.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 13.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 14.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 14.PNG" alt="" />
                 </li>
 
             </ul>
@@ -434,16 +434,16 @@
             <ul class="point-tool-raw4">
 
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 15.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 15.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 16.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 16.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 17.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 17.PNG" alt="" />
                 </li>
                 <li class="item pointToolImg">
-                    <img src="Images/Point Tool/Point Tool 18.PNG" alt="" />
+                    <img class="bsImage" src="Images/Point Tool/Point Tool 18.PNG" alt="" />
                 </li>
 
             </ul>
@@ -505,6 +505,23 @@
     </footer>
     <!--/Footer -->
     <div class="footer-height">
+    </div>
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" hidden>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="" id="imagepreview">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script type='text/javascript'>
@@ -585,6 +602,11 @@
 
     .map-overlay.overlay-hide {
         margin-top: -500px;
+    }
+
+    .caroufredsel_wrapper {
+        height: 215px !important;
+    }
 </style>
 
 
